@@ -1,0 +1,111 @@
+.logo-signup {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 350px;
+  height: 190px;
+}
+
+.signup-columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.signup-columns .left-column {
+  text-align: center;
+  background: url("https://i.imgur.com/plsHztD.jpg") no-repeat;
+  background-size: 70%;
+  background-position: 50%;
+  flex: 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+.signup-columns .right-column {
+  flex: 40%;
+  width: 100%;
+  height: 100vh;
+}
+.signup-columns .container {
+  max-width: 430px;
+  padding: 10px 20px;
+  margin: 35px auto;
+}
+.signup-columns .wrapper {
+  max-width: 85%;
+  line-height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.signup-columns .wrapper h1 {
+  letter-spacing: 5px;
+}
+.signup-columns .wrapper h1 span:first-child {
+  text-decoration: underline #cc5f04;
+}
+
+.signup-columns .wrapper form .row input[type="text"],
+.signup-columns .wrapper form .row input[type="email"],
+.signup-columns input[type="password"] {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  margin-bottom: 25px;
+  background-color: #e9e7e5;
+}
+.signup-columns .wrapper form .button button {
+  border: 1px solid #cc5f04;
+  background-color: #cc5f04;
+  border-radius: 23px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 8px;
+}
+.signup-columns form .button button:hover {
+  opacity: 0.9;
+}
+.signup-columns .wrapper .login-prop {
+  text-align: center;
+  margin: 18px 0;
+  font-size: 17px;
+  color: rgb(66, 66, 66);
+}
+.signup-columns .wrapper .login-prop .login-link {
+  color: #cc5f04;
+  text-decoration: none;
+}
+.signup-columns .wrapper .login-prop .login-link:hover {
+  text-decoration: underline;
+}
+
+.signup-columns label {
+  text-align: left;
+}
+#restorer {
+  margin-left: 5px;
+}
+
+.fa-circle-exclamation {
+  font-size: 15px;
+  padding-right: 5px;
+}
+.toast {
+  position: absolute;
+  top: 10px;
+  left: 45%;
+  transform: translateX(-50%);
+}
+@media (max-width: 700px) {
+  .signup-columns .left-column {
+    display: none;
+  }
+}

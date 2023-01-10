@@ -1,0 +1,199 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fff;
+  font-family: "Jost", sans-serif;
+  /* overflow-x: hidden; */
+}
+::selection {
+  background: rgba(26, 188, 156, 0.3);
+}
+.toast2 {
+  position: absolute;
+  top: 30px !important ;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/* Background Elements */
+/* Image Version */
+.topimg {
+  position: absolute;
+  top: 75px;
+  left: 170px;
+  width: 13vw;
+  transform: rotate(-20deg);
+}
+.btmimg {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  width: 14vw;
+}
+/* ---End Image Version-------*/
+/* DOTS VERSION */
+
+/* .top-left-elem1 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  background: #CC5F04;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+}
+.login-container .top-left-elem2 {
+  position: absolute;
+  top: 130px;
+  left: 140px;
+  background: #CC5F04;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+}
+.login-container .bottom-right-elem1 {
+  position: absolute;
+  bottom: 130px;
+  right: 140px;
+  background: #CC5F04;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+}
+.login-container .bottom-right-elem2 {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background: #CC5F04;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+} */
+
+/*-------------- End Dots Version----------- */
+
+.bg-elems .top-right-elem {
+  position: absolute;
+  top: -5px;
+  right: -18px;
+  width: 25%;
+}
+.bg-elems .bottom-left-elem {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+}
+/*-------End Background Elements-------*/
+.login-container {
+  overflow-x: hidden;
+  max-width: 95%;
+}
+.login-container .wrapper {
+  max-width: 372px;
+  line-height: 52px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 11%;
+}
+.login-container .wrapper .title {
+  line-height: 10px;
+  letter-spacing: 2px;
+}
+.login-container .wrapper form {
+  padding: 30px 25px 25px 25px;
+}
+.login-container .wrapper form .row {
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.login-container .wrapper form .row input[type="email"],
+.login-container input[type="password"] {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #e9e7e5;
+}
+.login-container form .row input:focus {
+  box-shadow: inset 0px 0px 2px 2px rgba(226, 147, 28, 0.87);
+}
+.login-container form .row input::placeholder {
+  color: #cc5f04;
+}
+.login-container .wrapper form .row i {
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #cc5f04;
+  border: 1px solid #cc5f04;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+}
+.login-container .wrapper form .pass {
+  margin: -8px 0 20px 0;
+}
+.login-container .wrapper form .pass a {
+  color: #cc5f04;
+  font-size: 17px;
+  text-decoration: none;
+}
+.login-container .wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+.login-container .wrapper form .button {
+  margin-top: 40px;
+}
+.login-container .wrapper form .button input {
+  border: 1px solid #cc5f04;
+  background-color: #cc5f04;
+  border-radius: 23px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #fff;
+  cursor: pointer;
+}
+.login-container .wrapper form .button input:hover {
+  opacity: 0.9;
+}
+.login-container .wrapper form .signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.login-container .wrapper form .signup-link .signup-link {
+  color: #cc5f04;
+  text-decoration: none;
+}
+.login-container form .signup-link .signup-link:hover {
+  text-decoration: underline;
+}
+.logo-log {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  width: 350px;
+  height: 190px;
+}
+
+@media screen and (max-width: 600px) {
+  .login-container {
+    max-width: 380px;
+  }
+}

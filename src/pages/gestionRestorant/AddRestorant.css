@@ -1,0 +1,19 @@
+#body {
+  margin-top: 5%;
+}
+
+#titre h1 {
+  color: #cc5f04;
+  text-align: center;
+}
+#titre2 p {
+  text-align: center;
+}
+#body form {
+  width: 40%;
+  margin: auto;
+}
+#body form button {
+  width: 100%;
+  margin-top: 20px;
+}

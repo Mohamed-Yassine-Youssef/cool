@@ -1,0 +1,16 @@
+.menu {
+  padding-top: 20px;
+}
+.menu .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .menuImg img {
+  width: 100vw;
+  height: 83vh;
+}
+.menu .reviews {
+  margin-top: 40px;
+}
