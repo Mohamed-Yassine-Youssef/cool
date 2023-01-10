@@ -3,7 +3,7 @@ const transport = nodemailer.createTransport({
   service: "hotmail",
   auth: {
     user: "blabla@gmail.com",
-    pass: "	bYV6vSDuVn",
+    pass: "kjkjkifrt",
   },
 });
 module.exports.sendConfirmationEmail = (email, activationcode) => {
