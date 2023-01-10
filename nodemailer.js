@@ -2,14 +2,14 @@ const nodemailer = require("nodemailer");
 const transport = nodemailer.createTransport({
   service: "hotmail",
   auth: {
-    user: "youssefmohamedyassine@sousse.r-iset.tn",
+    user: "blabla@gmail.com",
     pass: "	bYV6vSDuVn",
   },
 });
 module.exports.sendConfirmationEmail = (email, activationcode) => {
   transport
     .sendMail({
-      from: "youssefmohamedyassine@sousse.r-iset.tn",
+      from: "blabla@gmail.com",
       to: email,
       subject: "Confirmer votre email",
       html: `<h1>Email de Confirmation</h1>
@@ -24,7 +24,7 @@ module.exports.sendConfirmationEmail = (email, activationcode) => {
 module.exports.sendReservationAccept = (email) => {
   transport
     .sendMail({
-      from: "youssefmohamedyassine@sousse.r-iset.tn",
+      from: "blabla@gmail.com",
       to: email,
       subject: "Reservation Confirmation",
       html: `<h1>Reservation Accepted</h1>
