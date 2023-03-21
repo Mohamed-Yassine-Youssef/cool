@@ -1,0 +1,190 @@
+/* user page */
+/* nav bar component */
+.userpage {
+  height: 100vh;
+  background-image: url("./images/jonathan-borba-xUtkfr-qBFU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.navbar-toggler {
+  color: white;
+}
+#search-button {
+  border-radius: 0 20px 20px 0px;
+  background-color: #80cf06;
+}
+
+.nav-link.dropdown-toggle::after {
+  transform: translateY(3px);
+  color: #cc5f04;
+}
+@media (min-width: 997px) {
+  .input-group {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 996px) {
+  .input-group {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}
+.userImage {
+  width: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.dashboard {
+  display: flex;
+  align-items: center;
+}
+.restorerdashboard {
+  display: flex;
+  align-items: center;
+}
+.restorerdashboard p {
+  margin: 0%;
+}
+/* main section component */
+.mainSection {
+  height: calc(100vh - 56.2px);
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+.mainSection .mainSectionTitle {
+  color: white;
+  font-size: clamp(80px, 10vw, 170px); /* clamp(MIN, VAL, MAX) */
+}
+.mainSection .mainSectionTitle span {
+  display: block;
+}
+/* Restaurants components */
+.restaurants {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+.form-select {
+  width: fit-content;
+}
+.filter button {
+  border: none;
+  background-color: #80cf06;
+  padding: 0 30px 0 30px;
+  border-radius: 20px;
+}
+.restaurants_boxes {
+  margin-top: 50px;
+  background-color: #cc5f04;
+
+  padding: 30px;
+}
+.reslogo {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+}
+.reslogo img {
+  width: inherit;
+}
+.box {
+  padding: 20px 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.box p {
+  padding-top: 10px;
+  margin: 0;
+}
+.check-menu {
+  margin-top: 30px;
+  border: none;
+  padding: 5px 30px;
+  background-color: #cc5f04;
+  color: white;
+  border-radius: 20px;
+}
+.check-menu i {
+  padding-left: 10px;
+}
+
+.reserve {
+  margin-top: 10px;
+  border: none;
+  padding: 5px 50px;
+  background-color: #80cf06;
+  color: white;
+  border-radius: 20px;
+}
+.reserve i {
+  transform: translateX(18px);
+}
+.nextpagediv {
+  text-align: center;
+}
+.nextpage {
+  margin-top: 50px;
+  border: none;
+  padding: 8px 90px;
+  background-color: #80cf06;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.nextpage i {
+  padding-left: 15px;
+}
+/* Activation page */
+.ActivationPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ececec;
+}
+.ActivationPage .header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.ActivationPage .header i {
+  color: green;
+  font-size: 30px;
+}
+.ActivationPage .box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px 70px;
+}
+.ActivationPage .box button {
+  border: 1px solid #cc5f04;
+  padding: 10px 50px;
+  border-radius: 23px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  background-color: #cc5f04;
+  color: white;
+}
+.ActivationPage .box button .link {
+  color: white;
+  text-decoration: none;
+}
+.paginationpage .activebtn {
+  background-color: white !important;
+  color: #cc5f04 !important;
+}
+.rsb {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: fit-content;
+}

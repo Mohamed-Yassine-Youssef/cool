@@ -1,0 +1,32 @@
+#updateInfo-image {
+    width: 70%;
+}
+.container-update{
+    display: flex;
+    align-items:center ;
+    height: 100vh;
+    width: 100vw;   
+    
+}
+.rowinput{
+    text-align: center;
+    position: relative;
+    right: 8%;
+    width: 51%;
+}
+#updateInfo-form > input{
+    padding: 15px;
+    margin: 18px 0;
+    width: 99%;
+    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    font-size: 18px;
+    border-radius: 30px;
+    outline: none;   
+                                          
+}
+
+#updateIngo-btn:hover  {
+    opacity: 0.94;
+}
+

@@ -1,0 +1,10 @@
+.reservation {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reservation .form-select {
+  width: 100%;
+}
